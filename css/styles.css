@@ -303,6 +303,19 @@ p {
 
 .nav__cta {
   margin-left: 0.6rem;
+  background-color: var(--caramel);
+  color: var(--cream) !important;
+  border-color: var(--caramel);
+}
+
+.nav__cta::after {
+  display: none;
+}
+
+.nav__cta:hover {
+  background-color: var(--espresso);
+  border-color: var(--espresso);
+  color: var(--cream) !important;
 }
 
 /* Scrolled state */

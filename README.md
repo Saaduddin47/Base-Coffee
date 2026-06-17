@@ -1,6 +1,6 @@
 # Base Coffee
 
-A premium marketing website for **Base Coffee** — a specialty coffee shop with a minimalist Japandi aesthetic and light-to-medium roasts (roasted in Berlin), located in Abdoun Al Shamali, Amman. Tagline: *Your Base. Your Moment.*
+A premium marketing website for **Base Coffee** — a specialty coffee shop with a minimalist Japandi aesthetic and light-to-medium roasts (roasted in Berlin), located in Abdoun Al Shamali, Amman. Tagline: *Your Base, Your Momentum.*
 
 Built with plain **HTML, CSS, and JavaScript** — no frameworks, no build step.
 
