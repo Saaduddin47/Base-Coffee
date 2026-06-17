@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu — Base Coffee</title>
+  <meta name="description" content="Explore the Base Coffee menu: espresso classics, slow brews, signature drinks and freshly baked pastries. Light to medium roasts, crafted with care." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Base<span>.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="menu.html" class="is-active">Menu</a>
+        <a href="about.html">About</a>
+        <a href="about.html#locations">Locations</a>
+        <a href="about.html#contact" class="btn btn--light nav__cta">Visit Us</a>
+      </nav>
+      <button class="nav__burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page header -->
+  <section class="page-head">
+    <div class="page-head__bg">
+      <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1920&q=80" alt="Coffee menu spread" />
+    </div>
+    <div class="container reveal">
+      <span class="eyebrow">The Menu</span>
+      <h1>Crafted, cup by cup</h1>
+      <p>Every drink is built to highlight the natural flavours of our light to medium roasts. Prices in USD; ask our baristas about today's single origin.</p>
+    </div>
+  </section>
+
+  <!-- Menu sections -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Espresso -->
+      <div class="menu-block reveal">
+        <div class="menu-block__title">
+          <h2>Espresso</h2>
+        </div>
+        <div class="menu-list">
+          <div class="menu-item">
+            <span class="menu-item__name">Espresso</span>
+            <span class="menu-item__desc">Single or double shot</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$3.0</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Macchiato</span>
+            <span class="menu-item__desc">Espresso, a touch of foam</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$3.5</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Cortado</span>
+            <span class="menu-item__desc">Equal parts espresso & milk</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$4.0</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Flat White</span>
+            <span class="menu-item__desc">Velvety microfoam, double ristretto</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$4.5</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Cappuccino</span>
+            <span class="menu-item__desc">Espresso, steamed milk, foam</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$4.5</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Latte</span>
+            <span class="menu-item__desc">Smooth, generous steamed milk</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$5.0</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slow brews -->
+      <div class="menu-block reveal">
+        <div class="menu-block__title">
+          <h2>Slow Brews</h2>
+        </div>
+        <div class="menu-list">
+          <div class="menu-item">
+            <span class="menu-item__name">Pour Over</span>
+            <span class="menu-item__desc">Single origin, hand-brewed</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$5.0</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Filter Batch</span>
+            <span class="menu-item__desc">Clean, bright, brewed fresh</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$4.0</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Cold Brew</span>
+            <span class="menu-item__desc">Steeped 18 hours, smooth</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$5.0</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">AeroPress</span>
+            <span class="menu-item__desc">Full-bodied & expressive</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$5.5</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Signature -->
+      <div class="menu-block reveal">
+        <div class="menu-block__title">
+          <h2>Signature</h2>
+        </div>
+        <div class="menu-list">
+          <div class="menu-item">
+            <span class="menu-item__name">Iced Latte</span>
+            <span class="menu-item__desc">Espresso over chilled milk & ice</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$5.5</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Honey Cardamom</span>
+            <span class="menu-item__desc">Latte with raw honey & cardamom</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$6.0</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Espresso Tonic</span>
+            <span class="menu-item__desc">Bright shot over sparkling tonic</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$6.0</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Matcha Latte</span>
+            <span class="menu-item__desc">Ceremonial matcha, steamed milk</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$5.5</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pastries -->
+      <div class="menu-block reveal">
+        <div class="menu-block__title">
+          <h2>Pastries &amp; Bites</h2>
+        </div>
+        <div class="menu-list">
+          <div class="menu-item">
+            <span class="menu-item__name">Butter Croissant</span>
+            <span class="menu-item__desc">Baked fresh each morning</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$3.5</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Almond Cake</span>
+            <span class="menu-item__desc">Moist, lightly sweet</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$4.5</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Banana Bread</span>
+            <span class="menu-item__desc">Toasted, with sea salt butter</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$4.0</span>
+          </div>
+          <div class="menu-item">
+            <span class="menu-item__name">Seasonal Tart</span>
+            <span class="menu-item__desc">Ask for today's selection</span>
+            <span class="menu-item__dots"></span>
+            <span class="menu-item__price">$5.0</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta">
+    <div class="cta__bg">
+      <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=1920&q=80" alt="Latte art" />
+    </div>
+    <div class="container reveal">
+      <span class="eyebrow">Come say hello</span>
+      <h2>Best enjoyed in person.</h2>
+      <p>Drop by your nearest Base Coffee and let our baristas guide you to your next favourite cup.</p>
+      <a href="about.html#locations" class="btn btn--light">Find a Location</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo">Base<span>.</span></a>
+          <p>Specialty coffee, mindfully crafted. We embrace simplicity — here, less means more.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">About</a>
+          <a href="about.html#process">Our Craft</a>
+        </div>
+        <div class="footer__col">
+          <h4>Visit</h4>
+          <a href="about.html#locations">Paris</a>
+          <a href="about.html#locations">Geneva</a>
+          <a href="about.html#locations">Amman</a>
+          <a href="about.html#locations">Beirut</a>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <a href="mailto:hello@basecoffee.co">hello@basecoffee.co</a>
+          <a href="about.html#contact">Get in touch</a>
+          <a href="#">Careers</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Base Coffee. All rights reserved.</span>
+        <div class="footer__socials">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

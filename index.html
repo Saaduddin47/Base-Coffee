@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Base Coffee — Specialty Coffee, Mindfully Crafted</title>
+  <meta name="description" content="Base Coffee is a specialty coffee house devoted to a consistent, outstanding experience. Light to medium roasts, roasted in Berlin, served with care across Paris, Amman, Geneva and Beirut." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Base<span>.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="index.html" class="is-active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="about.html#locations">Locations</a>
+        <a href="about.html#contact" class="btn btn--light nav__cta">Visit Us</a>
+      </nav>
+      <button class="nav__burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__bg">
+      <img src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?auto=format&fit=crop&w=1920&q=80" alt="Pouring a fresh cup of specialty coffee" />
+    </div>
+    <div class="container hero__content reveal">
+      <span class="eyebrow">Specialty Coffee · Est. Paris</span>
+      <h1>Where every cup<br />begins with care.</h1>
+      <p>A mindful coffee experience built on light to medium roasts, thoughtful sourcing, and the warmth of a familiar at-home feel. Here, less means more.</p>
+      <div class="hero__actions">
+        <a href="menu.html" class="btn btn--light">Explore the Menu</a>
+        <a href="about.html" class="btn btn--outline" style="color: var(--cream);">Our Story</a>
+      </div>
+    </div>
+    <div class="hero__scroll">Scroll</div>
+  </section>
+
+  <!-- Intro / About teaser -->
+  <section class="section" id="intro">
+    <div class="container split">
+      <div class="split__media reveal">
+        <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=1000&q=80" alt="Minimalist coffee bar interior" />
+        <div class="split__badge">
+          <strong>15+</strong>
+          <span>Years of Craft</span>
+        </div>
+      </div>
+      <div class="split__body reveal" data-delay="1">
+        <span class="eyebrow">Step into Base Coffee</span>
+        <h2>Your journey toward a richer, more mindful cup.</h2>
+        <p>At Base Coffee, we are devoted to offering a consistent and outstanding specialty coffee experience that elevates your daily routine. Every process in the chain is carefully considered, assessed, and continually revisited.</p>
+        <p>Inspired by cultures across the world, we speak a common language spoken everywhere — coffee. We embrace simplicity through minimalistic colours and a Japandi aesthetic, creating a calm space that feels like home.</p>
+        <a href="about.html" class="btn btn--ghost">Discover our story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signature drinks -->
+  <section class="section bg-cream-soft" id="signature">
+    <div class="container">
+      <div class="section-head text-center reveal">
+        <span class="eyebrow">From our bar</span>
+        <h2>Signature pours we love</h2>
+        <p class="lead">A short list of favourites, brewed to highlight the natural flavours of carefully selected beans.</p>
+      </div>
+      <div class="grid-3">
+        <article class="card reveal">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=800&q=80" alt="Flat white coffee" />
+          </div>
+          <div class="card__body">
+            <div class="card__title-row">
+              <h3>Flat White</h3>
+              <span class="card__price">$4.5</span>
+            </div>
+            <p>Velvety steamed milk over a double ristretto for a smooth, balanced finish.</p>
+          </div>
+        </article>
+        <article class="card reveal" data-delay="1">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80" alt="Pour over filter coffee" />
+          </div>
+          <div class="card__body">
+            <div class="card__title-row">
+              <h3>Pour Over</h3>
+              <span class="card__price">$5.0</span>
+            </div>
+            <p>Single origin, hand-brewed to reveal the bean's brightest, most delicate notes.</p>
+          </div>
+        </article>
+        <article class="card reveal" data-delay="2">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80" alt="Iced specialty coffee" />
+          </div>
+          <div class="card__body">
+            <div class="card__title-row">
+              <h3>Iced Latte</h3>
+              <span class="card__price">$5.5</span>
+            </div>
+            <p>Cold, creamy and refreshing — espresso poured slowly over chilled milk and ice.</p>
+          </div>
+        </article>
+      </div>
+      <div class="text-center reveal" style="margin-top: 3rem;">
+        <a href="menu.html" class="btn btn--solid">See the Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our craft / split reverse -->
+  <section class="section" id="craft">
+    <div class="container split split--reverse">
+      <div class="split__media reveal" data-delay="1">
+        <img src="https://images.unsplash.com/photo-1442550528053-c431ecb55509?auto=format&fit=crop&w=1000&q=80" alt="Roasting coffee beans" />
+      </div>
+      <div class="split__body reveal">
+        <span class="eyebrow">Our craft</span>
+        <h2>Roasted in Berlin, perfected for you.</h2>
+        <p>Roasting in Berlin allows us to connect with certified Q graders, enabling us to deliver the perfect pour. We favour light to medium roasts so you can taste the natural character of every origin.</p>
+        <p>Our culture is rooted in passion, curiosity and dedication — constantly pushing the boundaries of innovation while setting new standards for quality in specialty coffee.</p>
+        <a href="about.html#process" class="btn btn--ghost">How we do it</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats strip -->
+  <section class="section--tight bg-espresso">
+    <div class="container stats">
+      <div class="stat reveal">
+        <div class="stat__num">4</div>
+        <div class="stat__label">Cities</div>
+      </div>
+      <div class="stat reveal" data-delay="1">
+        <div class="stat__num">100%</div>
+        <div class="stat__label">Specialty Grade</div>
+      </div>
+      <div class="stat reveal" data-delay="2">
+        <div class="stat__num">12+</div>
+        <div class="stat__label">Single Origins</div>
+      </div>
+      <div class="stat reveal" data-delay="3">
+        <div class="stat__num">Q</div>
+        <div class="stat__label">Grader Approved</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations preview -->
+  <section class="section" id="locations-preview">
+    <div class="container">
+      <div class="section-head text-center reveal">
+        <span class="eyebrow">Find us</span>
+        <h2>A familiar feel, wherever you are</h2>
+        <p class="lead">From Paris to Amman, every Base Coffee is a calm corner to slow down and savour your ritual.</p>
+      </div>
+      <div class="loc-grid">
+        <div class="loc-card reveal">
+          <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=400&q=80" alt="Paris cafe" />
+          <div>
+            <p class="loc-card__city">France</p>
+            <h3>Paris</h3>
+            <p>4, Rue du Dragon, 75006</p>
+            <p class="loc-card__hours">Daily · 8:00 – 19:00</p>
+          </div>
+        </div>
+        <div class="loc-card reveal" data-delay="1">
+          <img src="https://images.unsplash.com/photo-1442975631115-c4f7b05b6107?auto=format&fit=crop&w=400&q=80" alt="Geneva cafe" />
+          <div>
+            <p class="loc-card__city">Switzerland</p>
+            <h3>Geneva</h3>
+            <p>Rue Rousseau 14, 1201</p>
+            <p class="loc-card__hours">Daily · 8:00 – 18:30</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center reveal" style="margin-top: 2.5rem;">
+        <a href="about.html#locations" class="btn btn--outline">View All Locations</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / newsletter -->
+  <section class="section cta">
+    <div class="cta__bg">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1920&q=80" alt="Coffee beans close up" />
+    </div>
+    <div class="container reveal">
+      <span class="eyebrow">Join the community</span>
+      <h2>Take a step toward a more mindful cup.</h2>
+      <p>Subscribe for new origin releases, seasonal blends, and quiet invitations to events at your nearest Base.</p>
+      <form class="newsletter" id="newsletterForm" novalidate>
+        <input type="email" id="newsletterEmail" placeholder="Your email address" aria-label="Email address" />
+        <button type="submit" class="btn btn--light">Subscribe</button>
+      </form>
+      <p class="form-msg" id="newsletterMsg" role="status"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="index.html" class="nav__logo">Base<span>.</span></a>
+          <p>Specialty coffee, mindfully crafted. We embrace simplicity — here, less means more.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">About</a>
+          <a href="about.html#process">Our Craft</a>
+        </div>
+        <div class="footer__col">
+          <h4>Visit</h4>
+          <a href="about.html#locations">Paris</a>
+          <a href="about.html#locations">Geneva</a>
+          <a href="about.html#locations">Amman</a>
+          <a href="about.html#locations">Beirut</a>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <a href="mailto:hello@basecoffee.co">hello@basecoffee.co</a>
+          <a href="about.html#contact">Get in touch</a>
+          <a href="#">Careers</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Base Coffee. All rights reserved.</span>
+        <div class="footer__socials">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
