@@ -1,6 +1,6 @@
 # Base Coffee
 
-A premium marketing website for **Base Coffee** — a specialty coffee shop with a minimalist Japandi aesthetic, light-to-medium roasts (roasted in Berlin), and locations in Paris, Amman, Geneva, and Beirut.
+A premium marketing website for **Base Coffee** — a specialty coffee shop with a minimalist Japandi aesthetic and light-to-medium roasts (roasted in Berlin), located in Abdoun Al Shamali, Amman. Tagline: *Your Base. Your Moment.*
 
 Built with plain **HTML, CSS, and JavaScript** — no frameworks, no build step.
 
@@ -8,7 +8,7 @@ Built with plain **HTML, CSS, and JavaScript** — no frameworks, no build step.
 
 - `index.html` — Home: hero, brand intro, signature drinks, our-craft story, locations preview, and newsletter call-to-action.
 - `menu.html` — Full menu grouped by category (Espresso, Brews, Signature, Pastries) with prices.
-- `about.html` — Brand story, values, sourcing/roasting process, all locations with hours, and contact details.
+- `about.html` — Brand story, values, sourcing/roasting process, space gallery, Google reviews, the Abdoun location with hours, and contact details.
 
 ## Project structure
 
