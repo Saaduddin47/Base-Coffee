@@ -1116,6 +1116,26 @@ p {
   color: rgba(245, 240, 232, 0.5);
 }
 
+.footer__credit {
+  color: rgba(245, 240, 232, 0.55);
+}
+
+.footer__credit .heart {
+  color: #e0564b;
+  font-style: normal;
+}
+
+.footer__credit a {
+  color: rgba(245, 240, 232, 0.8);
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s var(--ease), border-color 0.3s var(--ease);
+}
+
+.footer__credit a:hover {
+  color: var(--caramel-light);
+  border-color: var(--caramel-light);
+}
+
 .footer__socials {
   display: flex;
   gap: 1.4rem;
